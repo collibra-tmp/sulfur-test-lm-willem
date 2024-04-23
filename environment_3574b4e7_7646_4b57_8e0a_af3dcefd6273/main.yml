@@ -1,0 +1,38 @@
+app_disk_size: 50
+aws_account_id: '860302443858'  #cloud platform dev
+aws_region: eu-west-1
+cellname: sandbox
+contact_email: willem.jans@collibra.com
+db_disk_size: 50
+dgc_build_nr: '46'
+dgc_maint: '1'
+dgc_major: '2023'
+dgc_minor: '08'
+enable_walg: true
+az: c
+env_id: 3574b4e7-7646-4b57-8e0a-af3dcefd6273
+env_insights_enabled: false
+env_name: gcp-update-test 
+tag_Department: Internal
+tag_InstancePurpose: Customer Non-Production
+tag_SalesforceId: 0016M00002HDke4
+tenant_id: 9e683ac2-b9bf-56d2-b8d4-acef708b2387
+trigger_schedule: cron(00 6 * * ? *)
+type: dualnode
+fullcustname: me
+hosting_region: n/a
+root_disk_size: 60
+tag_StartDate: now
+cloud: 'gcp'
+gcp_project_id: cloud-platform-dev-266808
+gcp_region: europe-west1
+named_cloud: gcp
+legacy_naming: false
+legacy_gcp: false
+image: dgc-collibra-image-1702899668
+collibra_istio_sidecar_bucket: test-collibra-chi-vmlink # Overwrite via grouvars?
+cell_name: sandbox   #Duplicate Beats playbook
+chi:
+  chi_env_name: sandbox-gcp
+  cluster_name: master
+  enabled: true
