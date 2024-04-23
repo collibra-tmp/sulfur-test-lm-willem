@@ -4,10 +4,10 @@ aws_region: eu-west-1
 cellname: sandbox
 contact_email: willem.jans@collibra.com
 db_disk_size: 50
-dgc_build_nr: '46'
-dgc_maint: '1'
-dgc_major: '2023'
-dgc_minor: '08'
+'dgc_build_nr': '84'
+'dgc_maint': '1'
+'dgc_major': '2024'
+'dgc_minor': '03'
 enable_walg: true
 az: c
 env_id: 3574b4e7-7646-4b57-8e0a-af3dcefd6273
