@@ -19,7 +19,7 @@ tag_SalesforceId: 0016M00002HDke4
 tenant_id: 9e683ac2-b9bf-56d2-b8d4-acef708b2387
 trigger_schedule: cron(00 6 * * ? *)
 type: dualnode
-fullcustname: me
+fullcustname: me2
 hosting_region: n/a
 root_disk_size: 60
 tag_StartDate: now
