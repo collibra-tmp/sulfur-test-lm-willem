@@ -1,0 +1,66 @@
+app_disk_size: "100"
+app_disk_type: pd-balanced
+app_ebs_optimized: false
+app_instance_type: e2-standard-4
+aws_account_id: "860302443858"
+aws_region: eu-west-1
+az: c
+cell: sandbox
+cellname: sandbox
+chi:
+    chi_env_name: sandbox-gcp
+    cluster_name: master
+    enabled: true
+    managed_db:
+        deletionPolicy: orphan
+        enabled: false
+cloud: gcp
+collibra_istio_sidecar_bucket: test-collibra-chi-vmlink
+contact_email: willem.jans@collibra.com
+csrf_enabled: "true"
+datadog_enable_agent_install: true
+db_disk_size: "100"
+db_disk_type: pd-balanced
+dgc_branch_name: main
+dgc_build_nr: "47"
+dgc_maint: "0"
+dgc_major: "2024"
+dgc_minor: "06"
+disable_feature_new_scope_page: true
+enable_contrast_security: true
+enable_edge: true
+enable_scim: true
+enable_top_navigation: true
+env_id: 00145e80-3b75-41c0-94ee-e37245bab105
+env_insights_enabled: true
+env_name: wja-4
+feature_assessments: true
+feature_betafeatures_searcheventlog: true
+feature_gcs_synchronization_edge: true
+feature_homepage: true
+feature_insights: true
+feature_jdbc_lineage: true
+feature_policylifecycle: true
+feature_s4d_delta_index: true
+feature_tableau_harvester: true
+fullcustname: Collibra
+gcp_project_id: cloud-platform-dev-266808
+gcp_region: europe-west1
+homepage_enabled: true
+image: dgc-rocky8-collibra-image-1726174509
+legacy_naming: false
+metadata_lake_enabled: true
+named_cloud: ""
+ntp_timezone: UTC
+premiumsupport: false
+release_channel: release
+repo_ebs_optimized: false
+repo_instance_type: e2-standard-4
+root_disk_size: "50"
+root_disk_type: pd-balanced
+tag_Department: K8s Release Team
+tag_InstancePurpose: Internal
+tag_SalesforceId: 0016M00002HDke5
+tag_StartDate: "1729244342"
+tenant_id: 1b0e6827-d944-4410-ba0f-756ac77fa650
+type: dualnode
